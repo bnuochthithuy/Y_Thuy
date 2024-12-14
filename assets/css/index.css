@@ -97,11 +97,9 @@
     gap:200px;
     margin-top: 40px;
 }
-.img-item1{
-    display: flex;
-    width: 30px;
-    object-fit:cover;
-}
-.text-item1{
-    display: flex;
+.products_title{
+    text-align: center;
+    color: #368f42;
+    font-size: 30px;
+    margin-top: 200px;
 }
