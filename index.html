@@ -1,182 +1,215 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/index.css">
-    <title>Homepages</title>
+    <title>yard zooks</title>
 </head>
 <body>
-    <div class="containers">
-        <section class="header-section">
-          <div class="navbar">
-            <div class="nav-links nav" >
-                <a class="nav-link dropdown-toggle" style="color:#4e393d;" href="#" role="button" data-bs-toggle="dropdown">PRODUCTS</a>
-                <ul style="background-color: #368f42;" class="dropdown-menu dropdown">
-                  <li><a class="dropdown-item text-nav" href="#">ANIMAL STATUES</a></li>
-                  <li><a class="dropdown-item text-nav" href="#">COCONUT LINERS</a></li>
-                  <li><a class="dropdown-item text-nav" href="#">METAL PLANTERS</a></li>
-                  <li><a class="dropdown-item text-nav" href="#">OUTDOOR DECOR</a></li>
-                  <li><a class="dropdown-item text-nav" href="#">SMALL INDOOR</a></li>
-                  <li><a class="dropdown-item text-nav" href="#">WATERING BAGS</a></li>
-                  <li><a class="dropdown-item text-nav" href="#">WROUGHT IRON</a></li>
+    <header>
+        <div class="container-header mt-2">
+            <div class="d-flex justify-content-between align-items-center">
+                <ul class="nav nav-pills">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PRODUCTS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Animal Statues</a></li>
+                            <li><a class="dropdown-item" href="#">Coconut Liners</a></li>
+                            <li><a class="dropdown-item" href="#">Metal Planters</a></li>
+                            <li><a class="dropdown-item" href="#">Outdoor Decor</a></li>
+                            <li><a class="dropdown-item" href="#">Small Indoor Pots</a></li>
+                            <li><a class="dropdown-item" href="#">Watering Bags</a></li>
+                            <li><a class="dropdown-item" href="#">Wrought Iron</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
                 </ul>
-                <p class="text-nav" style="color:#4e393d;"><a href="#"></a>CONTACT</p>
-                <p class="text-nav" style="color:#4e393d;"><a href="#"></a>ABOUT</p>
-              </div>
-              <div style="margin-right: 2px;"><img src="https://yardzooks.com/wp-content/uploads/2019/10/logo-Zardzooks1.svg"></img></div>
-              <div class="nav-right">
-                <p style="color:#4e393d;"><i class="fa fa-search" aria-hidden="true"></i></p>
-                <div class="cart-nav">
-                  <p style="color:#4e393d;"><i class="fa fa-shopping-cart" aria-hidden="true"></i></p>
-                  <span>0 ITEM - $0</span>
+                <div class="me-3 nav">
+                    <img src="./assets/image/logo.png" alt="Logo" style="height: 40px;">
                 </div>
-                <p style="color:#4e393d;" class="text-account">MY ACCOUNT</p>
+
+                <ul class="nav nav-pills ms-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item li-center">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span>0 ITEM - $0</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            MY ACCOUNT
+                        </a>
+                    </li>
+                </ul>
             </div>
-          </div>
-        </section>
-        <section class="banner-section">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                <div class="carousel-indicators button-click-banner">
-                  <button style="background-color: white;width: 15px;height:15px; border-radius: 100%;" type=" button " data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button style="background-color: white;width: 15px;height:15px; border-radius: 100%;" type=" button " data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button style="background-color: white;width: 15px;height:15px; border-radius: 100%;" type=" button " data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="assets/img/banner-1.jpg" class="d-block w-100" alt="banner1">
-                    <div class="carousel-caption d-none d-md-block">
-                        <span class="text-banner"> Your one stop shop for <br> Everything Garden!</span>
-                        <a class="button-banner"> GO TO SHOP </a>
-                    </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="2000">
-                    <img src="assets/img/banner-2.jpg" class="d-block w-100" alt="banner2">
-                    <div class="carousel-caption d-none d-md-block">
-                      <p class="text-banner">Your one stop shop for Everything <br>Garden!</p>
-                        <a class="button-banner"> GO TO SHOP </a>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="assets/img/banner-3.jpg" class="d-block w-100" alt="flower">
-                    <div class="carousel-caption d-none d-md-block">
-                        <p class="text-banner">Your one stop shop for Everything <br>Garden!</p>
-                        <a class="button-banner"> GO TO SHOP </a>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </section>
-        <section class="Products-categories-section"> 
-          <div class="row">
-            <div class="title-product-cat">
-                <h3> Product Categories</h3>
+        </div>
+    </header>
+    <section id="slideRun" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#slideRun" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#slideRun" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#slideRun" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/image/silder-1.jpg" class="d-block" alt="slider1">
             </div>
-            <div class="list-product-cat row">
-              <div class="item-product-cat col-md-6 col-xl-6 xxl-4" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="assets/img/animal-statues.jpg" class="img-fluid rounded-start" alt="animal-statues">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Animal Statues</h5>
-                      <p class="card-text">Explore!</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item-product-cat col-md-6 col-xl-6 xxl-4" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="assets/img/coconuts-liners.jpg" class="img-fluid rounded-start" alt="coconuts-liners">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Coconuts Liners</h5>
-                      <p class="card-text">Explore!</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item-product-cat col-md-6 col-xl-6 xxl-4" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="assets/img/mental-planter.jpg" class="img-fluid rounded-start" alt="mental-planter">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Mental Planter</h5>
-                      <p class="card-text">Explore!</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item-product-cat col-md-6 col-xl-6 xxl-4" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="assets/img/outdoor-decore.jpg" class="img-fluid rounded-start" alt="outdoor-decor">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Outdoor Decor</h5>
-                      <p class="card-text">Explore!</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item-product-cat col-md-6 col-xl-6 xxl-4" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="assets/img/small-Indoor-Pot.jpg" class="img-fluid rounded-start" alt="small-Indoor-Pot">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Small Indoor Pots</h5>
-                      <p class="card-text">Explore!</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item-product-cat col-md-6 col-xl-6 xxl-4" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="assets/img/watering-bags.jpg" class="img-fluid rounded-start" alt="watering-bags">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Watering Bags</h5>
-                      <p class="card-text">Explore!</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item-product-cat col-md-6 col-xl-6 xxl-4" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="assets/img/wrought-Iron.jpg" class="img-fluid rounded-start" alt="wrought-Iron">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">wrought Iron</h5>
-                      <p class="card-text">Explore!</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="carousel-item">
+                <img src="./assets/image/slider-2.jpg" class="d-block" alt="slider2">
             </div>
-          </div>
-        </section>
-    </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+            <div class="carousel-item">
+                <img src="./assets/image/silder-3.jpg" class="d-block" alt="slide3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#slideRun" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#slideRun" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <div class="wrap-content">
+            <h2 class="title-content">
+                Your one stop shop for Everything Garden!
+            </h2>
+            <div class="sub-title">
+                <p class="go-sub-title">
+                    <span>GO TO SHOP</span>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Product Categories -->
+    <section class="container-ProcductCategory mt-2">
+        <h3>Products Categories</h3>
+        <div class="row">
+            <div class="col-lg-6 col-xl-4 mb-3">
+                <div class="card" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./assets/image/animal-statues.jpg" class="img-fluid rounded-start" alt="anhRua">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Animal Statues</h5>
+                                <p class="card-text">Explore!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-4 mb-3">
+                <div class="card" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./assets/image/coconuts-liners.jpg" class="img-fluid rounded-start" alt="anhRua">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Coconuts Liners</h5>
+                                <p class="card-text">Explore</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-4 mb-3">
+                <div class="card" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./assets/image/mental-planter.jpg" class="img-fluid rounded-start" alt="anhRua">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Mental Planter</h5>
+                                <p class="card-text">Explore!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-4 mb-3">
+                <div class="card" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./assets/image/outdoor-decore.jpg" class="img-fluid rounded-start" alt="outdoor-decore">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Outdoor Decor</h5>
+                                <p class="card-text">Explore!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-4 mb-3">
+                <div class="card" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./assets/image/small-Indoor-Pot.jpg" class="img-fluid rounded-start" alt="small-Indoor-Pot">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Small Indoor Pots</h5>
+                                <p class="card-text">Explore!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-4 mb-3">
+                <div class="card" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./assets/image/watering-bags.jpg" class="img-fluid rounded-start" alt="watering-bags">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Watering Bags</h5>
+                                <p class="card-text">Explore!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-4 mb-3">
+                <div class="card" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./assets/image/wrought-Iron.jpg" class="img-fluid rounded-start" alt="anhRua">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">wrought Iron</h5>
+                                <p class="card-text">Explore!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
